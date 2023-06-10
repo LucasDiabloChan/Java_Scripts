@@ -1,3 +1,10 @@
+/*
+ * Description: Calcula o perímetro de um círculo
+ * Author: Prof. Lucas
+ * Created at: 10 jun. 2023
+ * Updtated at: 10 jun. 2023
+ */
+
 import java.util.Scanner;
 
 public class LucasSouza_Exercicio06{
@@ -17,5 +24,8 @@ public class LucasSouza_Exercicio06{
             
         /* EXIBE O RESULTADO */
             System.out.println("O perímetro mede: " + (doisPi * raio));
+
+        /* ENCERRA O LEITOR */
+            read.close();
     }
 }

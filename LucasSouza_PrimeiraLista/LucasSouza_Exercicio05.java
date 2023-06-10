@@ -1,16 +1,23 @@
+/*
+ * Description: Exibe a classificação etária de uma pessoa pela idade
+ * Author: Prof. Lucas
+ * Created at: 10 jun. 2023
+ * Updtated at: 10 jun. 2023
+ */
+
 import java.util.Scanner;
 
 public class LucasSouza_Exercicio05{
     public static void main(String[] args){
-        * CRIAÇÃO DAS VARIÁVEIS */
-          Scanner read = new Scanner(System.in);
-          short idade;
+        /* CRIAÇÃO DAS VARIÁVEIS */
+            Scanner read = new Scanner(System.in);
+            short idade;
         
         /* INICIALIZAÇÃO DAS VARIÁVEIS */
-          idade = 0;
+            idade = 0;
         
         /* RECEBENDO OS VALORES */
-          System.out.println("Insira sua idade: ");
+            System.out.println("Insira sua idade: ");
             idade = read.nextShort();
             
         /* EXIBE A CONVERSÃO */
@@ -24,5 +31,8 @@ public class LucasSouza_Exercicio05{
                 System.out.println("Tu é um bebê.");
             else
                 System.out.println("Para de mentir macho, tu tem " + idade + " anos?");    
+    
+        /* ENCERRA O LEITOR */
+            read.close();
     }
 }

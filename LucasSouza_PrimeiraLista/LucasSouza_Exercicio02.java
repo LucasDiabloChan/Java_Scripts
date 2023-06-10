@@ -1,8 +1,15 @@
+/*
+ * Description: Exibe a soma do quadrado de quatro valores
+ * Author: Prof. Lucas
+ * Created at: 10 jun. 2023
+ * Updtated at: 10 jun. 2023
+ */
+
 // Chama a classe Scanner
 import java.util.Scanner;
 
 // Todo seu código deve estar dentro dessa classe
-public class LucasSouza_Exercicio01{
+public class LucasSouza_Exercicio02{
   
   // Todo seu código deve ser escrito/chamado aqui
   public static void main(String args[]){
@@ -26,5 +33,8 @@ public class LucasSouza_Exercicio01{
     
     /* EXIBE A SOMA */
       System.out.println("O resultado da soma dos quadrados é: " + soma);
+
+    /* ENCERRA O LEITOR */
+      reader.close();
   }
 }
