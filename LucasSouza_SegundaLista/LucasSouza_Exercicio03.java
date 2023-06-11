@@ -5,7 +5,7 @@
  * Updtated at: 10 jun. 2023
  */
 
-import java.io.IOException;
+
 import java.util.Scanner;
 
 // Todo seu código deve estar dentro dessa classe
@@ -32,7 +32,7 @@ public class LucasSouza_Exercicio03{
         
         /* EXIBE O RESULTADO */
             System.out.println("A área equivale a aproximadamente: " + area);
-            System.out.println("\n= = = = = = = = = = = = = = =\n"); // Limpa a tela
+            System.out.println("\n= = = = = = = = = = = = = = =\n"); // Embelezamento
     
         /* ENCERRA O LEITOR */
             read.close();
