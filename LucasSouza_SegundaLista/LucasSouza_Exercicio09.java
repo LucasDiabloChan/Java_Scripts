@@ -19,10 +19,10 @@ public class LucasSouza_Exercicio09{
       
         /* RECEBE OS VALORES */
             System.out.println("Insira um valor:");
-                primeiroValor = reader.nextInt();
+                primeiroValor = reader.nextFloat();
       
             System.out.println("Insira outro valor:");
-                segundoValor = reader.nextInt();
+                segundoValor = reader.nextFloat();
       
         /* MOSTRA O MAIOR OU SE SÃO IGUAIS */
             if(primeiroValor > segundoValor){
