@@ -1,5 +1,5 @@
 /*
- * Description: Verifica se o usu.
+ * Description: Verifica se o usuário digitou um número entre 94 e 456.
  * Author: Prof. Lucas
  * Created at: 12/06/2023
  * Updated at: 12/06/2023
