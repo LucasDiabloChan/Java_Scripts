@@ -17,7 +17,10 @@ public class LucasSouza_Exercicio06{
         /* INICIALIZAÇÃO DAS VARIÁVEIS */
             reader = new Scanner(System.in);
             qtdDePicoleDeLaranja = qtdDePicoleDeKiwi = qtdDePicoleDeRoma = 0;
-            precoPicoleLaranja = precoPicoleKiwi = precoPicoleRoma = precoFinal = 0.0f;
+            precoPicoleLaranja = 2.39;
+            precoPicoleKiwi = 3.2;
+            precoPicoleRoma = 7.99;
+            precoFinal = 0.0f;
       
         /* RECEBE OS VALORES */
             System.out.println("Insira a quantidade de picolés de Laranja a ser comprado: ");
