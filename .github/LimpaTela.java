@@ -5,7 +5,7 @@
  * Updtated at: 10 jun. 2023
  */
 
-package MeusTestes;
+package .github;
 
 import java.io.IOException;
 
