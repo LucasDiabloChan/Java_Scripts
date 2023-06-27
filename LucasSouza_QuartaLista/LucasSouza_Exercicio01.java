@@ -14,21 +14,21 @@ public class LucasSouza_Exercicio01{
 // - - - - - - - - - - - - - - - - - - - - - - - - - - //
 
 		// Declaração 
-		    Scanner leitor;
+			Scanner leitor;
 			int limiteDosNumeros, somaDasBases;
-			
-        // Inicialização
-            leitor = new Scanner(System.in);
-            somaDasBases = 0;
+
+		// Inicialização
+			leitor = new Scanner(System.in);
+			somaDasBases = 0;
             
 // - - - - - - - - - - - - - - - - - - - - - - - - - - //
 
-        System.out.println("Insira um número: ");
+		System.out.println("Insira um número: ");
 		limiteDosNumeros = leitor.nextInt();
-        
+		
 		for(int i = 1; i <= limiteDosNumeros; i++){
 			int baseAoQuadrado = i * i;
-
+		
 			if(baseAoQuadrado % 4 == 0)
 				somaDasBases += i;		
 		}
