@@ -13,7 +13,7 @@ public class LucasSouza_Exercicio01{
 	public static void main(String[] args){
 // - - - - - - - - - - - - - - - - - - - - - - - - - - //
 
-		// Declaração
+		// Declaração 
 		    Scanner leitor;
 			int limiteDosNumeros, somaDasBases;
 			
